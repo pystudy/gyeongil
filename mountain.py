@@ -1,4 +1,6 @@
-height = 6
+print "input height :",
+height = input()
+
 for i in range(0,height):
 	for j in range(0,height-1-i):
 		print ' ',
